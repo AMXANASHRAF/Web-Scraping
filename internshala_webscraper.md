@@ -2,19 +2,19 @@
 
 This project is a **Python web scraper** built with [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) and [Requests](https://docs.python-requests.org/) to extract **fresher Data Science job listings in Gurgaon** from [Internshala](https://internshala.com/).
 
-## 📌 Features
+##  Features
 - Scrapes **company names**, **job titles**, **stipends**, **skills required**, and **locations**.
 - Organizes data into a **Pandas DataFrame** for easy analysis.
 - Handles missing values gracefully using Python exception handling.
 - Can be adapted to scrape **any website** with similar structured data.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - **Python 3**
 - **BeautifulSoup4** for parsing HTML
 - **Requests** for fetching web pages
 - **Pandas** for data storage and manipulation
 
-## 🚀 Installation
+##  Installation
 1. Clone this repository or download the notebook:
    ```bash
    git clone https://github.com/yourusername/internshala-webscraper.git
@@ -32,13 +32,13 @@ This project is a **Python web scraper** built with [BeautifulSoup](https://www.
    lxml
    ```
 
-## 📂 Usage
+##  Usage
 Run the Jupyter Notebook:
 ```bash
 jupyter notebook Internshala_webscrape.ipynb
 ```
 
-## 📊 Output
+##  Output
 The scraper produces a structured DataFrame:
 
 | Company Name | Job Title | Stipend | Skills | Location |
@@ -51,7 +51,7 @@ You can save the results to CSV:
 df.to_csv("internshala_jobs.csv", index=False)
 ```
 
-## ⚠️ Disclaimer
+## ⚠ Disclaimer
 - This project is for **educational purposes only**.
 - Internshala’s content is their intellectual property; please check their **robots.txt** and **terms of service** before large-scale scraping.
 
