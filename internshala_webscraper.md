@@ -56,5 +56,5 @@ df.to_csv("internshala_jobs.csv", index=False)
 - Internshala’s content is their intellectual property; please check their **robots.txt** and **terms of service** before large-scale scraping.
 
 ---
-👨‍💻 Developed by: *Your Name*
+Developed by: *Amaan Ashraf*
 
